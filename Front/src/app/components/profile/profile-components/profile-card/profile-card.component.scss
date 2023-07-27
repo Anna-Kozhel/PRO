@@ -1,0 +1,20 @@
+$main-color: rgb(164, 182, 158);
+
+.profileCard {
+  $width: 90%;
+  $height: 250px;
+
+  width: $width;
+  min-height: $height;
+
+  background-color: $main-color;
+  border-radius: $height/5;
+
+  margin: (100% - $width)/2 0;
+}
+
+@media screen and (max-device-width: 330px) {
+  .profileCard {
+    width: 300px;
+  }
+}

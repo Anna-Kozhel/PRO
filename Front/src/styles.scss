@@ -1,0 +1,12 @@
+$light-theme: rgb(245, 245, 245);
+$dark-theme: rgba(3, 3, 3, 0.8);
+$main-color: rgb(164, 182, 158);
+
+body {
+  $size: 100%;
+  background-color: $light-theme;
+  width: $size;
+  height: $size;
+  margin: 0;
+  padding: 0;
+}
