@@ -16,4 +16,10 @@ app-toolbar{
   border-top-right-radius: 35px;
 }
 
+@media screen and (min-device-width: 600px) {
+  app-toolbar {
+    //left: calc(50wv - (600px * 0.45));
+    width: 600px * 0.9;
+  }
+}
 

@@ -1,14 +1,16 @@
 $main-color: rgb(164, 182, 158);
+$cardHeight: 250px;
 
 .profileCard {
   $width: 90%;
-  $height: 250px;
+
+  position: relative;
 
   width: $width;
-  min-height: $height;
+  min-height: $cardHeight;
 
   background-color: $main-color;
-  border-radius: $height/5;
+  border-radius: $cardHeight/5;
 
   margin: (100% - $width)/2 0;
 }
@@ -17,4 +19,30 @@ $main-color: rgb(164, 182, 158);
   .profileCard {
     width: 300px;
   }
+}
+
+@media screen and (min-device-width: 800px) {
+  .profileCard {
+    width: 800px * 0.9;
+  }
+}
+
+#profileAvatar {
+  $width: 45%;
+
+  position: absolute;
+  left: $cardHeight * 0.08;
+  top: $cardHeight * 0.1;
+
+
+  width: 145px;
+  height: $cardHeight * 0.8;
+
+  border-radius: $cardHeight * 0.1;
+
+  background-color: white;
+}
+
+@media screen {
+
 }
