@@ -2,12 +2,19 @@ $main-color: rgb(164, 182, 158);
 
 
 button {
-  width: 15%;
+  width: 56px;
   height: 70%;
 
-  border-radius: 35%;
+  border-radius: 45%;
   border: none;
+}
 
-  margin: 2%;
+.activated {
+
+
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+
 }
 

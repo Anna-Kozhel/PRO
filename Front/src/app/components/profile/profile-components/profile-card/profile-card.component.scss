@@ -12,7 +12,7 @@ $cardHeight: 250px;
   background-color: $main-color;
   border-radius: $cardHeight/5;
 
-  margin: (100% - $width)/2 0;
+  margin: (100% - $width)/2 0 0 0;
 }
 
 @media screen and (max-device-width: 330px) {

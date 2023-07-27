@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent {
-  items:number[] = [1, 2, 3];
+  lists:number[] = [0, 1, 2];
+
+
 }
